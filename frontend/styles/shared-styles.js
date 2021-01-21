@@ -1,0 +1,21 @@
+// eagerly import theme styles so as we can override them
+import '@vaadin/vaadin-lumo-styles/all-imports';
+
+
+const $_documentContainer = document.createElement('template');
+//Placeholder für HTML
+$_documentContainer.innerHTML = `
+<custom-style>
+  <style>
+    html {
+    }
+  </style>
+</custom-style>
+
+
+`;
+
+document.head.appendChild($_documentContainer.content);
+
+
+//Import von Index.html und Index.ts für entrypoint und erweiterte Frontend Customization -> HTML

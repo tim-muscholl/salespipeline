@@ -1,0 +1,16 @@
+#login-view {
+  display: grid;
+  padding: 30%;
+
+
+
+}
+body {background-color: hsl(0, 0%, 92%);}
+div {background-color: hsl(0, 0%, 92%);}
+
+
+:host {
+  display: block;
+  padding: var(--lumo-space-m) var(--lumo-space-l);
+
+}
