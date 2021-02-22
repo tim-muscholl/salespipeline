@@ -1,7 +1,7 @@
 package com.salespipeline.application.data.entity;
 
 public enum Role {
-//Rolen anlegen
+//Rollen anlegen
     USER, ADMIN
 
 }

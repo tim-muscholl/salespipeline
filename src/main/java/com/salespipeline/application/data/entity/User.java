@@ -20,6 +20,7 @@ public class User extends AbstractEntity {
     public User() {
     }
 
+
     public User(String username, String password, Role role) {
         this.username = username;
         this.role = role;
